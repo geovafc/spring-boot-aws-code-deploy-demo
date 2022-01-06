@@ -17,4 +17,10 @@ public class ApiController
     {
         return ResponseEntity.ok("It works successfully on AWS Yeah.");
     }
+
+    @GetMapping("api/users")
+    public ResponseEntity<?> users()
+    {
+        return ResponseEntity.ok("List of users {}");
+    }
 }
