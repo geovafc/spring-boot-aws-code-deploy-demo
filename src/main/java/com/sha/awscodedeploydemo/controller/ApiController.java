@@ -24,16 +24,4 @@ public class ApiController
         return ResponseEntity.ok("List of users {}");
     }
 
-    @GetMapping("api/userById")
-    public ResponseEntity<?> usersById()
-    {
-        return ResponseEntity.ok("List of users by id {}");
-    }
-
-    @GetMapping("api/jackson")
-    public ResponseEntity<?> usersById()
-    {
-        return ResponseEntity.ok("Jackson");
-    }
-
 }
