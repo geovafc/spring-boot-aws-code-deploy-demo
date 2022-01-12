@@ -21,7 +21,13 @@ public class ApiController
     @GetMapping("api/users")
     public ResponseEntity<?> users()
     {
-        return ResponseEntity.ok("List of users {}!");
+        return ResponseEntity.ok("List of users {}");
+    }
+
+    @GetMapping("api/usersById")
+    public ResponseEntity<?> usersById()
+    {
+        return ResponseEntity.ok("List of users By Id{}");
     }
 
 }
